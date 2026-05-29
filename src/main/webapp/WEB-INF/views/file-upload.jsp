@@ -7,17 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h3>Spring MVC GitHub</h3>
-
-<h3> ${msg}</h3>
-
 <form action="upload" method="post" enctype="multipart/form-data">
-
-    <input type="file" name="file">
-
-    <button type="submit">Upload</button>
+File : <input type="file" name="file">
+<button type="submit">Upload</button>
 
 </form>
+
 </body>
 </html>
