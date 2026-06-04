@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-File Name =${fname}
-<h3>Upload Success</h3>
+<h3>Uploaded Successfully</h3>
+File Name :
+${fname}
+
 </body>
 </html>
