@@ -26,8 +26,9 @@ import org.springframework.web.multipart.MultipartFile;
 	            throws IllegalStateException, IOException {
 String fileName=file.getOriginalFilename();
 
-	        String path = "D:/upload/";
-
+	        String path = "C:\\Users\\USER\\Desktop\\Upl\\";
+//String path = "D:/upload/";
+	        //String path="C:\\Users\\USER\\Desktop\\";
 	        file.transferTo(new File(path + file.getOriginalFilename()));
 	        m.addAttribute("fname",fileName);
 	        return "success";
